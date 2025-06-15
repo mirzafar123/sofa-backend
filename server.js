@@ -16,8 +16,8 @@ app.use('/api/products', productRoutes); // ✅ bu yerda productRoutes function 
 app.use("/uploads", express.static("uploads"));
 
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT , () => {
   console.log(
-    `Server http://localhost:${process.env.PORT || 3000} da ishga tushdi ishlashi kerak`
+    `Server http://localhost:${process.env.PORT } da ishga tushdi ishlashi kerak`
   );
 });
