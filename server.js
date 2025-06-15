@@ -18,6 +18,6 @@ app.use("/uploads", express.static("uploads"));
 
 app.listen(process.env.PORT || 3000, () => {
   console.log(
-    `Server http://localhost:${process.env.PORT || 3000} da ishga tushdi`
+    `Server http://localhost:${process.env.PORT || 3000} da ishga tushdi ishlashi kerak`
   );
 });
